@@ -5,4 +5,4 @@ from article.models import Article
 
 
 admin.site.register(Article)
-
+print 'hehe'
