@@ -53,6 +53,10 @@ MIDDLEWARE_CLASSES = [
 
 ROOT_URLCONF = 'blog.urls'
 
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
+TEMPLATE_DIRS = (
+    TEMPLATE_PATH,
+)
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
